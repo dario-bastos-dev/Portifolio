@@ -210,19 +210,24 @@
     border-left: 5px solid var(--main-color);
 }
 
-.skills-box i {
+.skills-box img {
 
-    font-size: 45px;
+    width: 60px;
     margin: 0 10px 0 0 ;
 }
 
 /* Mobile */
-@media(max-width: 800px) {
+@media(min-width: 767px) and (max-width: 1199.8px) {
 
     .skills-box {
 
         flex: 1 1 50%;
         max-width: 50%;
+    }
+
+    .skills-box img {
+
+        width: 50px;
     }
 }
 
@@ -276,9 +281,9 @@
         text-align: left;
     }
 
-    .skills-box i {
+    .skills-box img {
 
-        font-size: 60px;
+        width: 70px;
     }
 }
 
